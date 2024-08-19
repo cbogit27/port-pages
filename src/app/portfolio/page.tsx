@@ -20,9 +20,9 @@ export default function Portfolio() {
   ];
 
   return (
-    <div className="flex max-w-[1240px] mx-auto px-3 sm:px-4 lg:px-6 py-24">
+    <div className="flex flex-col lg:flex-row max-w-[1240px] mx-auto px-3 sm:px-4 lg:px-6 py-24">
       {/* Sidebar */}
-      <aside className="w-1/4 bg-gray-100 p-4 rounded-xs shadow-[-4px_4px_4px_0px_#000000]">
+      <aside className="lg:w-1/4 w-full bg-gray-100 p-4 rounded-xs shadow-[-4px_4px_4px_0px_#000000] mb-6 lg:mb-0">
         <h2 className="text-lg font-bold text-gray-800 mb-6">Portfolio</h2>
         <ul>
           {projects.map((project, index) => (
@@ -42,7 +42,7 @@ export default function Portfolio() {
       </aside>
 
       {/* Main Content */}
-      <main className="w-3/4 p-6">
+      <main className="lg:w-3/4 w-full p-6">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">
           {projects[activeTab].title}
         </h2>
