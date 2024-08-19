@@ -31,7 +31,7 @@ export default function About() {
 
       {/* Section 2: Our Values */}
       <section className="mb-20 py-8">
-        <div className="flex flex-col md:flex-row items-center  justify-normal md:justify-between mb-10">
+        <div className="flex flex-col md:flex-row items-center  justify-center lg:justify-between mb-10">
           {/* Images */}
           <div className="flex flex-col lg:flex-row justify-center space-y-4 md:space-x-8 order-last md:order-first m-5 md:mb-0">
             <Image
