@@ -37,15 +37,15 @@ export default function About() {
             <Image
               src="/about3.jpg"
               alt="Values Image 1"
-              width={250}
-              height={250}
+              width={300}
+              height={300}
               className="object-cover rounded-xs shadow-[-5px_5px_5px_0px_#000000]"
             />
             <Image
               src="/about4.jpg"
               alt="Values Image 2"
-              width={250}
-              height={250}
+              width={300}
+              height={300}
               className="object-cover rounded-xs shadow-[-5px_5px_5px_0px_#000000]"
             />
           </div>
