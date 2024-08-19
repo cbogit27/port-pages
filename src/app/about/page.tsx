@@ -33,7 +33,7 @@ export default function About() {
       <section className="mb-20 py-8">
         <div className="flex flex-col md:flex-row items-center  justify-normal md:justify-between mb-10">
           {/* Images */}
-          <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-x-8 order-last md:order-first m-5 md:mb-0">
+          <div className="flex flex-col lg:flex-row justify-center space-y-4 md:space-x-8 order-last md:order-first m-5 md:mb-0">
             <Image
               src="/about3.jpg"
               alt="Values Image 1"

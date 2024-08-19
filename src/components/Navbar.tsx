@@ -17,21 +17,21 @@ export default function Navbar() {
             <Link href="/">logo&reg;</Link>
           </div>
           <div className="hidden md:flex space-x-4">
-            <Link href="/portfolio" className="text-gray-800 hover:text-green-600">
+            <Link href="/portfolio" className="text-gray-800 hover:text-green-600 font-extrabold">
               Portfolio
             </Link>
-            <Link href="/about" className="text-gray-800 hover:text-green-600">
+            <Link href="/about" className="text-gray-800 hover:text-green-600 font-extrabold">
               About
             </Link>
-            <Link href="/blog" className="text-gray-800 hover:text-green-600">
+            <Link href="/blog" className="text-gray-800 hover:text-green-600 font-extrabold">
               Blog
             </Link>
-            <Link href="/contact" className="text-gray-800 hover:text-green-600">
+            <Link href="/contact" className="text-gray-800 hover:text-green-600 font-extrabold">
               Contact
             </Link>
           </div>
           <div className="md:hidden">
-            <button onClick={toggleMenu} className="text-gray-800 focus:outline-none">
+            <button onClick={toggleMenu} className="text-gray-800 focus:border p-2 font-bold">
               MENU
             </button>
           </div>
@@ -42,24 +42,24 @@ export default function Navbar() {
       <div className={`md:hidden fixed inset-0 bg-gray-200 transform ${isOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out z-20`}>
         <div className="flex justify-between items-center p-4">
           <div className="text-lg font-bold text-gray-800">
-            <Link href="/">logo</Link>
+            <Link href="/">logo&reg;</Link>
           </div>
-          <button onClick={toggleMenu} className="text-gray-800 focus:outline-none">
+          <button onClick={toggleMenu} className="text-gray-800 focus:border border-gray-400 p-2 font-bold">
             CLOSE
           </button>
         </div>
         <div className="flex flex-col p-4">
           
-          <Link href="/portfolio" onClick={toggleMenu} className="text-gray-800/50 py-2 hover:text-green-600/50">
+          <Link href="/portfolio" onClick={toggleMenu} className="text-gray-800/50 py-2 hover:text-green-600/50 font-extrabold">
             Portfolio
           </Link>
-          <Link href="/about" onClick={toggleMenu} className="text-gray-800/50 py-2 hover:text-green-600/50">
+          <Link href="/about" onClick={toggleMenu} className="text-gray-800/50 py-2 hover:text-green-600/50 font-extrabold">
             About
           </Link>
-          <Link href="/blog" onClick={toggleMenu} className="text-gray-800/50 py-2 hover:text-green-600">
+          <Link href="/blog" onClick={toggleMenu} className="text-gray-800/50 py-2 hover:text-green-600 font-extrabold">
             Blog
           </Link>
-          <Link href="/contact" onClick={toggleMenu} className="text-gray-800/50 py-2 hover:text-green-600/50">
+          <Link href="/contact" onClick={toggleMenu} className="text-gray-800/50 py-2 hover:text-green-600/50 font-extrabold">
             Contact
           </Link>
         </div>
