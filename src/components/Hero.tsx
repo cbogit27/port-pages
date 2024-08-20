@@ -39,7 +39,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="bg-white p-2 rounded-full hover:bg-blue-500/60 hover:text-white transition duration-300"
             >
-              <FaXTwitter size={30} />
+              <FaXTwitter size={20} />
             </Link>
             
             <Link

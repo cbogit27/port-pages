@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { headers } from "next/headers";
+import { Toaster } from "react-hot-toast";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -42,6 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={outfit.className}>
+        <Toaster/>
         <Navbar/>
         {children}
         <Footer/>
