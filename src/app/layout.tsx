@@ -28,7 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const pageTitle = routeTitles[basePath] || 'Default Title';
 
   return {
-    title: `${pageTitle} | Web & content development company`,
+    title: ` Web & content development company`,
     description: `${pageTitle} page of the website.`,
     // Add other metadata as needed
   };

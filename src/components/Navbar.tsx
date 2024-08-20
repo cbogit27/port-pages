@@ -13,10 +13,10 @@ export default function Navbar() {
     <nav className="shadow-sm bg-[#f0ffff] fixed w-full z-10">
       <div className="max-w-[1240px] mx-auto px-3 sm:px-4 lg:px-6">
         <div className="flex justify-between items-center py-4">
-          <div className="text-lg font-bold text-gray-800">
+          <div className="text-lg font-bold text-gray-800 cursor-pointer">
             <Link href="/">logo&reg;</Link>
           </div>
-          <div className="hidden md:flex space-x-4">
+          <div className="hidden cursor-pointer md:flex space-x-4">
             <Link href="/portfolio" className="text-gray-800 hover:text-green-600 font-extrabold">
               Portfolio
             </Link>
