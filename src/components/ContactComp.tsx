@@ -117,8 +117,8 @@ const ContactComp: FC = () => {
         </div>
 
         {/* Social Media Icons */}
-        <div className="flex-1 flex flex-row md:flex-col justify-start items-center mt-10 md:mt-0 space-x-2 md:space-y-6">
-          <p className="text-gray-800/50 mb-4">Connect with us:</p>
+        <div className="flex-1 flex flex-row md:flex-col  justify-end items-end mt-10 md:mt-0 space-x-2 md:space-y-6">
+          <p className="text-gray-800/50 mb-4 text-sm">Connect with us:</p>
           <Link
             href="https://x.com"
             className="bg-transparent text-gray-600/40 p-2 rounded-full border hover:bg-gray-800/50 transition"
