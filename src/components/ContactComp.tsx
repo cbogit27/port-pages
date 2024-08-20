@@ -92,7 +92,7 @@ const ContactComp: FC = () => {
             </div>
 
             <div className="mb-6">
-              <label className="block text-gray-200/40 text-sm font-bold mb-2" htmlFor="message">
+              <label className="block text-gray-600/40 text-sm font-bold mb-2" htmlFor="message">
                 Message
               </label>
               <textarea
