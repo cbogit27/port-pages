@@ -24,12 +24,13 @@ export default function AboutComp() {
           <div className="flex-1 flex justify-center">
             <div className="relative w-full h-80">
               <Image
-                src={about1}
+                src={"https://i.ibb.co/gT6DvQ3/about1.jpg"}
                 alt="Journey Image 1"
                width={600}
                height={500}
                 quality={50}
                 placeholder="blur"
+                blurDataURL="https://i.ibb.co/gT6DvQ3/about1.jpg"
                 className="object-cover rounded-xs shadow-[-5px_5px_5px_0px_#000000]"
               />
             </div>
@@ -44,23 +45,25 @@ export default function AboutComp() {
           <div className="flex flex-col lg:flex-row justify-center gap-8 order-last md:order-first m-5 md:mb-0">
             <div className="relative w-full h-60 overflow-hidden">
               <Image
-                src={about3}
+                src={"https://i.ibb.co/zHYsqdS/about3.jpg"}
                 alt="Values Image 1"
                 width={300}
                 height={250}
                 quality={50}
                 placeholder="blur"
+                blurDataURL="https://i.ibb.co/zHYsqdS/about3.jpg"
                 className="object-cover rounded-xs shadow-[-5px_5px_5px_0px_#000000]"
               />
             </div>
             <div className="relative w-full h-60 overflow-hidden">
               <Image
-                src={about4}
+                src={"https://i.ibb.co/qmKNht1/about4.jpg"}
                 alt="Values Image 2"
                 width={300}
                 height={250}
                 quality={50}
-                placeholder="blur"
+                placeholder="blur" 
+                blurDataURL={"https://i.ibb.co/qmKNht1/about4.jpg"}
                 className="object-cover rounded-xs shadow-[-5px_5px_5px_0px_#000000]"
               />
             </div>
@@ -93,12 +96,13 @@ export default function AboutComp() {
           <div className="flex-1 flex justify-center">
             <div className="relative w-full h-80">
               <Image
-                src={about2}
+                src={"https://i.ibb.co/02NTyq7/about2.jpg"}
                 alt="Team Image 1"
                 width={600}
                 height={500}
                 quality={50}
                 placeholder="blur"
+                blurDataURL="https://i.ibb.co/02NTyq7/about2.jpg"
                 className="object-cover rounded-xs shadow-[-5px_5px_5px_0px_#000000]"
               />
             </div>

@@ -35,12 +35,14 @@ export default function Hero() {
   <div className="flex-1 flex justify-center items-center mt-6 md:mt-0">
     <div className="relative overflow-hidden">
       <Image
-        src={main1}
+        src={"https://i.ibb.co/vvmjXNw/main1.jpg"}
         width={600}
         height={500}
         alt="Hero Image"
-        priority={true} quality={100} placeholder="blur"
-        className="object-cover rounded-sm shadow-[-5px_5px_5px_0px_#000000]"
+        priority={true} quality={100}
+        placeholder="blur"
+        blurDataURL="https://i.ibb.co/vvmjXNw/main1.jpg"
+        className="object-cover"
       />
     </div>
    

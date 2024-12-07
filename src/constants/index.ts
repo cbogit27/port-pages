@@ -19,10 +19,10 @@ export const projectsData = [
     {
       id: 2,
       icon: RxDesktop,
-      title: "Project Two",
-      description: "A brief description of Project Two.",
+      title: "e-Shop minimalistic design",
+      description: "overview of a simple e-shop, with items-pice-list API from RapidApi used to display data and pricing. payment processing to come",
       date: "Feb 12, 2024",
-      imageUrl: "/img/project.jpg"
+      imageUrl: "https://i.ibb.co/pvtdy8T/project1.png"
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ export const projectsData = [
       title: "Project Three",
       description: "A brief description of Project Three.",
       date: "Mar 18, 2024",
-      imageUrl: "/img/project.jpg"
+      imageUrl: "https://i.ibb.co/Ky7yz5W/project.jpg"
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ export const projectsData = [
       title: "Project Four",
       description: "A brief description of Project Four.",
       date: "Apr 23, 2024",
-      imageUrl: "/img/project.jpg"
+      imageUrl: "https://i.ibb.co/Ky7yz5W/project.jpg"
     },
     {
       id: 5,
@@ -46,7 +46,7 @@ export const projectsData = [
       title: "Project Five",
       description: "A brief description of Project Five.",
       date: "May 30, 2024",
-      imageUrl: "/img/project.jpg"
+      imageUrl: "https://i.ibb.co/Ky7yz5W/project.jpg"
     },
   ];
 
