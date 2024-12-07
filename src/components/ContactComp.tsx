@@ -42,7 +42,7 @@ const ContactComp: FC = () => {
   };
 
   return (
-    <div className="relative max-w-[1240px] mx-auto px-3 sm:px-4 lg:px-6 py-20">
+    <section className="relative max-w-[1240px] mx-auto px-3 sm:px-4 lg:px-6 py-20">
       {/* Contact Form and Social Icons */}
       <section className="relative z-10 max-w-[800px] mx-auto p-8 rounded-xs flex flex-col md:flex-row justify-between items-start">
         {/* Form Section */}
@@ -145,7 +145,7 @@ const ContactComp: FC = () => {
           </Link>
         </div>
       </section>
-    </div>
+    </section>
   );
 };
 
