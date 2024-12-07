@@ -11,8 +11,8 @@ const nextConfig = {
     ],
      unoptimized: true,
   },
-    assetPrefix: isProd ? '/inv-pages/' : '',
-  basePath: isProd ? '/inv-pages' : '',
+    assetPrefix: isProd ? '/port-pages/' : '',
+  basePath: isProd ? '/port-pages' : '',
   output: 'export'
 }
 export default nextConfig;
